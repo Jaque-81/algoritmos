@@ -1,4 +1,4 @@
-const precosLivros = [
+const listaLivros = [
   {
     titulo: "JavaScript",
     preco: 25
@@ -6,23 +6,23 @@ const precosLivros = [
   {
     titulo: "PHP",
     preco: 15
-  },
+  }, 
   {
     titulo: "Java",
     preco: 30
-  },
+  }, 
   {
     titulo: "Elixir",
     preco: 50
-  },
+  }, 
   {
     titulo: "Go",
     preco: 45
-  },
+  }, 
   {
     titulo: "Python",
     preco: 20
   }
 ];
 
-module.export = precosLivros;
+module.exports = listaLivros;
